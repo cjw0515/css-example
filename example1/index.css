@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding:0;
+}
+.container {
+    margin: 0 auto;
+    width: 500px;  
+    border: 1px solid black;  
+}
+.contents {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+}
+
+div:nth-child(2){    
+    background-color: brown;
+}
+
+ul li {
+    width: 120px;
+    height: 80px;
+    list-style: none;
+    background-color: gray;
+    text-align: center;
+    margin:1px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+ul li:nth-child(3){
+    opacity: 0.9;
+}
